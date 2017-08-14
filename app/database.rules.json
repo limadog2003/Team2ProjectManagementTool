@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "auth != null && auth.emailVerified != false ",
+    ".write": "auth != null && auth.emailVerified != false"
+  }
+}
